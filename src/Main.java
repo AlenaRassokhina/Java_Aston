@@ -2,27 +2,49 @@ import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Система расчёта стоимости топлива");
-        int fuelType = 95;
-        int amount = 50;
-        double fuel92price = 60.2;
-        double fuel95price = 67.33;
+        //метод 1
+        methods.printThreeWords();
 
-        double fuelPrice = 0;
-        if (fuelType == 92) {
-            fuelPrice = fuel92price;
-        } else if (fuelType == 95) {
-            fuelPrice = fuel95price;
-        } else {
-            System.out.println("Указан неверный тип топлива");
-        }
-        //Проверка количества топлива
-        if (amount < 1) {
-            System.out.println("Указано слишком малое количество топлива");
-            amount = 0;
-        }
-        System.out.println("Цена выбранного топлива: " + fuelPrice + " руб.");
-        double totalPrice = fuelPrice * amount;
-        System.out.println("Общая стоимость запрвки: " + totalPrice + " руб.");
+        //метод 2
+        methods.checkSumSign();
+
+        //метод 3
+        methods.printColor();
+
+        //метод 4
+        methods.compareNumbers();
+
+        //метод 5
+        boolean resalt = methods.checkSum(7, 8);
+        System.out.println(resalt);
+
+        //метод 6
+        methods.check(-6);
+
+        //метод 7
+        boolean resultNumber = methods.checkNumber(0);
+        System.out.println(resultNumber);
+
+        //метод 8
+        methods.cycle(6, "Java");
+
+        //метод 9
+        boolean resultYear =  methods.leapYear(1945);
+        System.out.println(resultYear);
+
+        //метод 10
+        methods.massive();
+
+        //метод 11
+        methods.massiveZero();
+
+        //метод 12
+        methods.massiveChange();
+
+        //метод 13
+        methods.massiveSquare();
+
+        //метод 14
+        methods.cycleBackMassif(10, 7);
     }
 }
