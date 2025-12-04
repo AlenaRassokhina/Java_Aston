@@ -4,6 +4,7 @@ public class ProcessArray {
             super(message);
         }
     }
+
     public static class MyArrayDataException extends Exception {
         public MyArrayDataException(String message) {
             super(message);
