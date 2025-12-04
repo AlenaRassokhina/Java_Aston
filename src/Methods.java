@@ -1,12 +1,13 @@
 import java.util.Arrays;
 
-public class methods {
+public class Methods {
     //метод 1
     public static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
     }
+
     //метод 2
     public static void checkSumSign() {
         int a = 20;
@@ -18,6 +19,7 @@ public class methods {
             System.out.println("Сумма отрицательная");
         }
     }
+
     //метод 3
     public static void printColor() {
         int value = 101;
@@ -30,6 +32,7 @@ public class methods {
             System.out.println("Желтый");
         }
     }
+
     //метод 4
     public static void compareNumbers() {
         int a = 49;
@@ -41,6 +44,7 @@ public class methods {
             System.out.println("a < b");
         }
     }
+
     //метод 5
     public static boolean checkSum(int a, int b) {
         int summ = a + b;
@@ -50,6 +54,7 @@ public class methods {
             return true;
         }
     }
+
     //метод 6
     public static void check(int a) {
         if (a >= 0) {
@@ -58,6 +63,7 @@ public class methods {
             System.out.println("число отрицательное");
         }
     }
+
     //метод 7
     public static boolean checkNumber(int a) {
         if (a >= 0) {
@@ -66,12 +72,14 @@ public class methods {
             return true;
         }
     }
+
     //метод 8
     public static void cycle(int number, String inputString) {
         for (int i = 0; i < number; i++) {
             System.out.println(inputString);
         }
     }
+
     //метод 9
     public static boolean leapYear(int year) {
         if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
@@ -80,6 +88,7 @@ public class methods {
             return false;
         }
     }
+
     //метод 10
     public static void massive() {
         int [] arr = {1, 0, 1, 0, 0, 1, 0, 0, 1};
@@ -92,6 +101,7 @@ public class methods {
         }
         System.out.println(Arrays.toString(arr));
     }
+
     //метод 11
     public static void massiveZero() {
         int [] arr = new int [100];
@@ -100,6 +110,7 @@ public class methods {
         }
         System.out.println(Arrays.toString(arr));
     }
+
     //метод 12
     public static void massiveChange() {
         int [] arr = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
@@ -110,6 +121,7 @@ public class methods {
         }
         System.out.println(Arrays.toString(arr));
     }
+
     //метод 13
     public static void massiveSquare() {
         int counter = 1;
@@ -122,6 +134,7 @@ public class methods {
             System.out.println();
         }
     }
+
     //метод 14
     public static void cycleBackMassif(int len, int initialValue) {
         int [] arr = new int [len];

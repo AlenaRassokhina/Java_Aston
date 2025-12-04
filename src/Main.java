@@ -3,48 +3,48 @@ import java.sql.SQLOutput;
 public class Main {
     public static void main(String[] args) {
         //метод 1
-        methods.printThreeWords();
+        Methods.printThreeWords();
 
         //метод 2
-        methods.checkSumSign();
+        Methods.checkSumSign();
 
         //метод 3
-        methods.printColor();
+        Methods.printColor();
 
         //метод 4
-        methods.compareNumbers();
+        Methods.compareNumbers();
 
         //метод 5
-        boolean resalt = methods.checkSum(7, 8);
+        boolean resalt = Methods.checkSum(7, 8);
         System.out.println(resalt);
 
         //метод 6
-        methods.check(-6);
+        Methods.check(-6);
 
         //метод 7
-        boolean resultNumber = methods.checkNumber(0);
+        boolean resultNumber = Methods.checkNumber(0);
         System.out.println(resultNumber);
 
         //метод 8
-        methods.cycle(6, "Java");
+        Methods.cycle(6, "Java");
 
         //метод 9
-        boolean resultYear =  methods.leapYear(1945);
+        boolean resultYear =  Methods.leapYear(1945);
         System.out.println(resultYear);
 
         //метод 10
-        methods.massive();
+        Methods.massive();
 
         //метод 11
-        methods.massiveZero();
+        Methods.massiveZero();
 
         //метод 12
-        methods.massiveChange();
+        Methods.massiveChange();
 
         //метод 13
-        methods.massiveSquare();
+        Methods.massiveSquare();
 
         //метод 14
-        methods.cycleBackMassif(10, 7);
+        Methods.cycleBackMassif(10, 7);
     }
 }
